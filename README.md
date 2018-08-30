@@ -10,7 +10,7 @@ Clone the repo and download [*node.js*](https://nodejs.org/en/) to get started!
 
 ### Preview 
 <!-- take a picture of the image and add it into the readme  -->
-![Constructor Word Guess](https://raw.githubusercontent.com/sajeelmalik/Constructor-Word-gess/master/assets/preview.webm  "Constructor Word Guess")
+![Constructor Word Guess](public/assets/preview.PNG  "Constructor Word Guess")
 
 ## Technology Used
 
