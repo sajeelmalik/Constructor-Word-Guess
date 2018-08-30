@@ -9,9 +9,6 @@ var Word = function(word){
     //an array of letter representations, as the letter or as "_"
     this.wordRepresentation = [];
 
-    // console.log(this.word)
-    // console.log(this.word.length)
-
     this.wordGenerator = function(){
 
         for(var i = 0; i < word.length; i++){
@@ -31,9 +28,5 @@ var Word = function(word){
         console.log(this.wordRepresentation.join(" "))
     }
 }
-
-// var word = new Word("hello");
-// word.wordGenerator();
-// word.wordGuess("e");
 
 module.exports = Word;

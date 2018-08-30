@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/sajeelmalik/Constructor-Word-Guess#readme",
   "dependencies": {
+    "chalk": "^2.4.1",
+    "chalk-animation": "^1.6.0",
     "inquirer": "^6.2.0"
   }
 }
