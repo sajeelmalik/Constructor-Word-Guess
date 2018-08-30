@@ -1,11 +1,12 @@
 var Letter = require("./Letter.js")
 
 var Word = function(word){
-    this.word = word,
+    this.word = word.split(""),
 
     //an array of letter objects
     this.letters = [],
-
+    
+    //an array of letter representations, as the letter or as "_"
     this.wordRepresentation = [];
 
     // console.log(this.word)
@@ -13,8 +14,8 @@ var Word = function(word){
 
     this.wordGenerator = function(){
 
-        for(var i = 0; i < this.word.length; i++){
-            var letter = new Letter(this.word[i]);
+        for(var i = 0; i < word.length; i++){
+            var letter = new Letter(word[i]);
             this.letters.push(letter);
             this.wordRepresentation.push(letter.letterPrint());
         }
@@ -30,7 +31,9 @@ var Word = function(word){
         console.log(this.wordRepresentation.join(" "))
     }
 }
-module.exports = Word;
+
 // var word = new Word("hello");
 // word.wordGenerator();
 // word.wordGuess("e");
+
+module.exports = Word;
